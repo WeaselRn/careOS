@@ -1,0 +1,21 @@
+{
+  "inventory__eyebrow": "Facility stock",
+  "inventory__page_title": "Care Inventory",
+  "inventory__action_label": "Open Care Inventory",
+  "inventory__loading": "Loading?",
+  "inventory__categories_label": "categories",
+  "inventory__total_items": "Total items",
+  "inventory__total_units": "Units on hand",
+  "inventory__low_stock": "Low stock",
+  "inventory__status": "Status",
+  "inventory__stable": "Stable",
+  "inventory__stock_table": "Stock overview",
+  "inventory__items_label": "items",
+  "inventory__name": "Name",
+  "inventory__sku": "SKU",
+  "inventory__location": "Location",
+  "inventory__on_hand": "On hand",
+  "inventory__reorder": "Reorder level",
+  "inventory__low": "Low stock",
+  "inventory__healthy": "Healthy"
+}
