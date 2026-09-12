@@ -17,5 +17,14 @@
   "inventory__on_hand": "On hand",
   "inventory__reorder": "Reorder level",
   "inventory__low": "Low stock",
-  "inventory__healthy": "Healthy"
+  "inventory__healthy": "Healthy",
+  "inventory__add_item": "Add item",
+  "inventory__add_item_hint": "Create a stock record for this facility.",
+  "inventory__cancel": "Cancel",
+  "inventory__save_item": "Save item",
+  "inventory__category": "Category",
+  "inventory__search": "Search by name, SKU, or location...",
+  "inventory__low_stock_only": "Low stock only",
+  "inventory__decrease": "Decrease stock",
+  "inventory__increase": "Increase stock"
 }
