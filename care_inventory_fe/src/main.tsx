@@ -1,7 +1,9 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 import ExamplePage from "./pages/ExamplePage";
+import Page from "./components/Page";
 
 /**
  * Standalone harness — NOT the federation entrypoint.
@@ -10,8 +12,14 @@ import ExamplePage from "./pages/ExamplePage";
  */
 window.CARE_API_URL ??= "http://127.0.0.1:9000";
 
+const queryClient = new QueryClient();
+
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <ExamplePage />
+    <QueryClientProvider client={queryClient}>
+      <Page>
+        <ExamplePage />
+      </Page>
+    </QueryClientProvider>
   </StrictMode>,
 );
