@@ -17,9 +17,16 @@ export default function FacilityHomeActions({
 
   return (
     <Page>
-      <Button variant="primary" size="sm" className={className}>
-        <BoxesIcon />
-        {t("inventory__action_label")} ({facility.id.slice(0, 8)})
+      <Button
+        asChild
+        variant="primary"
+        size="sm"
+        className={className}
+      >
+        <a href="/inventory">
+          <BoxesIcon />
+          {t("inventory__action_label")} ({facility.id.slice(0, 8)})
+        </a>
       </Button>
     </Page>
   );
